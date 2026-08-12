@@ -5,5 +5,5 @@ pages_build_output_dir = "."
 [[d1_databases]]
 binding = "DB"
 database_name = "dsgv-tech-portfolio"
-database_id = "replace-with-your-d1-database-id"
-preview_database_id = "replace-with-your-preview-d1-database-id"
+database_id = "d7d4554c-7440-4f1d-9c09-17af554b1cd3"
+preview_database_id = "d7d4554c-7440-4f1d-9c09-17af554b1cd3"
