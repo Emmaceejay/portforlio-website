@@ -1,0 +1,9 @@
+name = "dsgv-tech-portfolio"
+compatibility_date = "2026-08-12"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dsgv-tech-portfolio"
+database_id = "replace-with-your-d1-database-id"
+preview_database_id = "replace-with-your-preview-d1-database-id"

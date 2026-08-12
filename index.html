@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSGV Tech | De-secko Global Ventures</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="DSGV Tech home">
+      <span class="brand-mark">D</span>
+      <span>
+        <strong>DSGV Tech</strong>
+        <small>De-secko Global Ventures</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#works">Works</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <template id="home-template">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">IoT | CCTV | Automation | Web Platforms</p>
+        <h1>Practical technology systems for serious businesses and learners.</h1>
+        <p class="lead">
+          DSGV Tech designs, builds, trains, and deploys connected hardware, automation workflows,
+          security installation skills, and web products that help clients operate smarter.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#services">Explore services</a>
+          <a class="button button-secondary" href="#works">See recent works</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" alt="Electronic circuit board for embedded systems work">
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Professional strengths">
+      <article>
+        <strong>Hardware + software</strong>
+        <span>Embedded builds, dashboards, integrations, and user-facing products.</span>
+      </article>
+      <article>
+        <strong>Field-ready training</strong>
+        <span>CCTV installation taught with tools, configuration, and troubleshooting.</span>
+      </article>
+      <article>
+        <strong>Client-focused delivery</strong>
+        <span>Clear requirements, clean design, testing, handover, and support.</span>
+      </article>
+    </section>
+  </template>
+
+  <template id="contact-template">
+    <section class="contact-section">
+      <div>
+        <p class="eyebrow">Project inquiries</p>
+        <h1>Let's discuss your next build.</h1>
+        <p class="lead">Send a brief description of your project, training needs, timeline, and budget range for a professional response.</p>
+      </div>
+      <div class="contact-card">
+        <a class="whatsapp-link" href="https://wa.me/2340000000000" target="_blank" rel="noopener">Contact on WhatsApp</a>
+        <a href="mailto:sockotech@gmail.com">sockotech@gmail.com</a>
+        <span>Replace <code>2340000000000</code> with your WhatsApp number in international format.</span>
+      </div>
+    </section>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
